@@ -1,0 +1,96 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "欢迎"
+			}
+		},
+		{
+			"path": "pages/login/sign",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/login/wjmm",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		},
+		{
+			"path": "pages/login/yam",
+			"style": {
+				"navigationBarTitleText": "验证"
+			}
+		},
+		{
+			"path": "pages/login/reset",
+			"style": {
+				"navigationBarTitleText": "重置密码"
+			}
+		},
+		{
+			"path": "pages/login/complete",
+			"style": {
+				"navigationBarTitleText": "完成"
+			}
+		},
+		{
+			"path": "pages/login/completea",
+			"style": {
+				"navigationBarTitleText": "注册成功"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#3A96D7",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/profile/profile",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人资料"
+			}
+		}
+
+	],
+	"tabBar": {
+		"list": [{
+				"iconPath": "static/dhl/首页 (1).png",
+				"pagePath": "pages/index/index",
+				"selectedIconPath": "static/dhl/首页_选中.png",
+				"text": "首页"
+			},
+			{
+				"iconPath": "static/dhl/我的 (1).png",
+				"pagePath": "pages/mine/mine",
+				"selectedIconPath": "static/dhl/我的_选中.png",
+				"text": "我"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
